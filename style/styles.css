@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+    margin-left: 50px;
+}
+.color{
+    color: red;
+}
+nav > ul{
+    display: flex;  
+    align-items: center; 
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: red;
+    border-radius: 5px;
+    color: wheat;
+    border: 0;
+}

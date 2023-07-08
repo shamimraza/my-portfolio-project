@@ -38,3 +38,11 @@ nav a{
     color: wheat;
     border: 0;
 }
+.banner{
+    margin: 30px 30px 30px 50px;
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+    width: 500px;
+}

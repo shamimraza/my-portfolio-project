@@ -193,21 +193,45 @@ main section {
     margin-top: 30px;
 }
 
-footer {
+/* footet section */
+
+.footer-heading {
     display: flex;
-    padding-top: 130px;
-    gap: 100px;
     background: #FFF8F3;
-    justify-content: space-around;
+    margin-top: 100px;
+    padding: 130px;
+    gap: 100px;
 }
 
 .footer-description {
     width: 562px;
 }
 
-.field {
+/* .field {
     border: 0;
     background: #FFF;
    border-radius: 10px;
    padding: 10px 10px;
+} */
+/* .footer-collom {
+    width: 50%;
+} */
+
+.text-field input[type="text"], .text-field input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    color: #757575;
+    border: 0;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 18px 35px;
+    gap: 20px;
+    width: 100%;
+}
+.footer-section{
+    text-align: center;
+    padding: 20px;
+    background-color: #f0ecec;
+    color: blueviolet;
 }

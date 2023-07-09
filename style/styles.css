@@ -1,37 +1,45 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800px;
     font-size: 45px;
     margin-left: 50px;
 }
-.color{
+
+.color {
     color: red;
 }
-nav > ul{
-    display: flex;  
-    align-items: center; 
+
+nav>ul {
+    display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
 }
-.btn{
+
+.btn {
     padding: 10px 10px;
     background-color: red;
     border-radius: 5px;
@@ -39,7 +47,8 @@ nav a{
     border: 0;
     margin-bottom: 5px;
 }
-.banner{
+
+.banner {
     margin: 30px 30px 0px 50px;
     background-image: url("/images/header_bg.png");
     display: flex;
@@ -47,50 +56,103 @@ nav a{
     background-repeat: no-repeat;
     background-position: bottom right;
     justify-content: space-between;
-    }
-.banner-img{
+}
+
+.banner-img {
     width: 500px;
 }
-.banner-grading{
+
+.banner-grading {
     font-size: 30px;
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 54px;
     margin-bottom: 5px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.description{
+
+.description {
     margin-bottom: 20px;
     color: red;
 }
 
 /* about section */
+main {
+    padding: 0 130px;
+    align-items: center;
+}
 
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     text-align: center;
     font-weight: 700px;
-    font-style: normal;   
+    font-style: normal;
     color: #757575;
     margin-bottom: 5px;
 }
-.section-description{
+
+.section-description {
     text-align: center;
     font-size: 18px;
     color: #757575;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.skill-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* a summery off resume */
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resume-collam-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
